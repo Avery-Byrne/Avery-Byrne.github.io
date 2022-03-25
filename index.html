@@ -1,30 +1,313 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Avery Byrne Personal Website</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Avery Byrne!</h1>
-				<p>I'm a Cal graduate with interests in the intersections between sustainability and data. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:averybyrne@berkeley.edu">email</a></li>
-        		<li><a href="https://github.com/Avery-Byrne">github.com/Avery-Byrne</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Avery Byrne</title> 
+
+    <link rel="icon" href="Images/AB.png" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+     <!--Import Google Icon Font-->
+      <!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="materialize.css"  media="screen,projection"/>
+      <!-- <link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/> -->
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+  <!--Font-Awesome Information-->
+  
+  <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"> -->
+  <!--For Font-Awesome-->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+ 
+  <!--For the other parts of the website-->
+  <link rel="stylesheet" href="index.css">
+  
+  
+  </head>
+
+  <body>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize.js"></script>
+      <script type = "text/javascript" src="parallax.js"></script>  
+      <!-- <script type="text/javascript" src="UpdatedPersonalWebsiteJavascript.js"></script> -->
+      <!-- <script type="text/javascript" src="PersonalWebsiteJavascript.js"></script> -->
+  </body>
+
+  <body data-spy="scroll" data-target=".navbar-collapse">
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+  
+    <div class="container">
+    
+      <div class ="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="" class="navbar-brand"> LCheng </a>
+      </div>
+      
+      
+      <div class="collapse navbar-collapse">
+      
+        <ul class="nav navbar-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#bio">Summary</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  </body>
+   
+<!--Homepage Screen-->
+  <section id="home" class="home">
+   <div class="container contentContainer fstPage">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3" id = "topRow">
+      <h1>Avery Byrne</h1>
+      <div class='content'>
+        <div class='visible'>
+          <p style = "position: relative; left: 10px">
+           I'm a
+          </p>
+        <ul id="animation1" >
+            <li style = "line-height: 40px"> Leader</li>
+            <li style = "line-height: 40px"> Thinker</li>
+            <li style = "line-height: 40px"> Adventurer</li>
+        </ul>
+        </div>
+      </div>
+      <br>
+      </div>
+
+      <div class="col-md-6 col-md-offset-3 center paddingTop" id = "topRow">
+        <a href="https://www.linkedin.com/in/averybyrne" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true" style="width:40px; height:40px; color:#ffffff;"></i></a>
+        <a href="https://github.com/Avery-Byrne" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true" style="width:40px; height:40px; color:#ffffff;"></i></a>
+      </div>
+      <br> <br> <br>
+
+      <div class="col-md-6 col-md-offset-3 center" style = "margin-top: 90px;">
+        <a href="#bio">
+        <button class="waves-effect waves-light button button1">Learn More</button>
+        </a>
+      </div>
+
+    </div>
+  </div>
+  </section>
+
+
+  
+  <!--About-->
+  <section id="bio" class="bio topContainer">
+  <div class="container contentContainer">
+    <div class="row margin-left:20px" class="center">
+      <br/> <br/>
+      <div class="myImage " style = "float:left; position:relative;left: 20px"></div>
+      <h1 style="color:white" class="italic title2"><span>"</span>Hi, my name is Avery Byrne!<span>"</span></h1>
+    <!-- </div> -->
+  
+  <div id="wrap">
+    <div class="col" style="float: right">
+    <p class="lead" style="color:white">
+      <br/>
+      &emsp;I am a graduate of UC Berkeley, where I double majored in Data Science and Environmental Economics & Policy, with a minor in Energy & Resources.
+    </p>
+    </div>
+  </div>
+    
+    <p class="lead" style="color:white">
+      &emsp; I am interested between the various intersections between data and sustainability.
+    </p>
+    
+    <p class="lead" style="color:white; font-size:1.8em"><strong>
+       Reach me at <a style="color:#FFCC33" href="mailto:averybyrne@berkeley.edu" target="_blank">averybyrne@berkeley.edu</a>
+    </strong></p>
+    </div>
+  </section>
+
+  <!--Personal Projects-->
+  <section id="projects" class = "projects ">
+  <div class="container sixthPage">
+
+       <div class="row">
+       <div class="col-md-6 col-md-offset-3 center">
+          <div id="topRow2">
+            <h1>Projects</h1>
+          </div>
+        </div>
+        <br/>
+         
+      <div class="col-md-4 paddingTop3">
+       <div class="card medium">
+
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="Images/SF_Heat_Map.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Energy Poverty Rates in California<i class="material-icons right"></i></span>
+          <div class="card-action">
+            <a href="https://github.com/Avery-Byrne/ENERES_131_Final_Project" target="_blank">Github</a>
+          </div>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Energy Poverty Rates in California<i class="material-icons right">close</i></span>
+          <br>
+          <p><div class = bold>Tools:</div></p>
+          <p> Python, CensusData API</p>
+          <br>
+          <br> <br>
+          <p>
+           <div class = "bold">
+           Assisted a Masters student at UC Berkeley with her masters thesis.
+           </div>
+          <br> 
+          Project for predicting energy poverty rates in California using publicly available US census data.</p>
+        </div>
+      </div>
+    </div>
+
+<!--<div class="col-md-4 paddingTop3">
+      <div class="card medium">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="PersonalWebsitePhoto.png">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Personal Website<i class="material-icons right"></i></span>
+          <div class="card-action">
+            <a href="https://github.com/lawrencecheng123/lawrencecheng123.github.io" target="_blank">Github</a>
+          </div>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Personal Website<i class="material-icons right">close</i></span>
+          <br>
+          <p><div class = bold>Tools:</div></p>
+          <p> HTML, CSS, JS</p>
+          <br> <br>
+          <p>Personal Website containing relevant information, such as my educational background and projects. This website is always being updated, and uses the Materialize CSS library for some of the effects.</p>
+        </div>
+      </div>
+    </div> -->
+
+      </div>
+    </div>
+<!--   </div> -->
+
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->             
+
+    <body>                                                                           
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="parallax.js"></script>                                                     
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script> -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js'></script>
+
+  <script>
+      //To generate the parallax effect
+       $(document).ready(function(){
+       $('.parallax').parallax();
+      });
+  </script>
+
+  <script>
+      //To generate the carousel effect
+       $('.carousel.carousel-slider').carousel({full_width: true});
+  </script>
+      
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90314705-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+  <script>
+  //For the smooth scrolling technique
+    $(document).ready(function() {
+    function filterPath(string) {
+    return string
+      .replace(/^\//,'')
+      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+      .replace(/\/$/,'');
+    }
+    var locationPath = filterPath(location.pathname);
+    var scrollElem = scrollableElement('html', 'body');
+   
+    $('a[href*=#]').each(function() {
+      var thisPath = filterPath(this.pathname) || locationPath;
+      if (  locationPath == thisPath
+      && (location.hostname == this.hostname || !this.hostname)
+      && this.hash.replace(/#/,'') ) {
+        var $target = $(this.hash), target = this.hash;
+        if (target) {
+          var targetOffset = $target.offset().top;
+          $(this).click(function(event) {
+            event.preventDefault();
+            $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+              location.hash = target;
+            });
+          });
+        }
+      }
+    });
+ 
+    // use the first element that is "scrollable"
+    function scrollableElement(els) {
+      for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+        var el = arguments[i],
+            $scrollElement = $(el);
+        if ($scrollElement.scrollTop()> 0) {
+          return el;
+        } else {
+          $scrollElement.scrollTop(1);
+          var isScrollable = $scrollElement.scrollTop()> 0;
+          $scrollElement.scrollTop(0);
+          if (isScrollable) {
+            return el;
+          }
+        }
+      }
+      return [];
+    }
+ 
+});
+    $(".contentContainer").css("height", $(window).height());
+  </script>
+
+  <script>
+       $(document).ready(function(){
+    $('.button').click(function(){
+        $('#fade-wrapper').fadeIn();
+    });
+    $('#fade-wrapper').click(function(){
+        $(this).fadeOut();
+    });
+});
+
+    </script>
+  </body>
+
+<!--   </div> -->
 </html>
