@@ -61,7 +61,7 @@
 	
 		#myImage {
 			/*background-image:url("gradPic2.png");*/
-			background-image:url("Images/Graduation_Pic.png");
+			background-image:url("Images/Graduation_Pic.jpg");
 			height:300px;
 			width:200px;
 			/*float:left;*/
@@ -90,7 +90,7 @@
 		}*/
 		
 		#botContainer {
-			background-image:url("Images/Graduation_Pic.png")
+			background-image:url("Images/Graduation_Pic.jpg")
 			height: 300px;
 			width:100%;
 			background-size:center-left;
@@ -191,7 +191,7 @@
     background-image: linear-gradient(
 			      rgba(0, 0, 0, 0.55), 
 			      rgba(0, 0, 0, 0.55)
-			    ), url("Signature07.jpg");
+			    ), url("Images/Bay_Bridge.jpeg");
     height: 100%; 
     max-width: 100%;
     background-attachment: fixed;
@@ -333,79 +333,6 @@
 					height:2150px;
 				}
 			
-		}
-
-		.internships {
-			background-image:url("Images/programmingImage.png");
-			height: 100%;
-			width:100%;
-			background-size:cover;
-		}
-
-		.front {
-			background-image:/* top, transparent black, faked with gradient */ 
-			    linear-gradient(
-			      rgba(0, 0, 0, 0.55), 
-			      rgba(0, 0, 0, 0.55)
-			    ), url("Seattle.JPG");
-			height:800px;
-			width:100%;
-			background-size:cover;
-		}
-
-		.Upthere {
-			background-image:/* top, transparent black, faked with gradient */ 
-			    linear-gradient(
-			      rgba(0, 0, 0, 0.75), 
-			      rgba(0, 0, 0, 0.75)
-			    ), url("UpthereHome.png");
-			height:800px;
-			width:100%;
-			background-size:cover;
-		}
-
-		.Cornell {
-			background-image:/* top, transparent black, faked with gradient */ 
-			    linear-gradient(
-			      rgba(0, 0, 0, 0.75), 
-			      rgba(0, 0, 0, 0.75)
-			    ), url("Cornell-University-Full.jpg");
-			height:800px;
-			width:100%;
-			background-size:cover;
-		}
-
-		.Iowa {
-			background-image:/* top, transparent black, faked with gradient */ 
-			    linear-gradient(
-			      rgba(0, 0, 0, 0.75), 
-			      rgba(0, 0, 0, 0.75)
-			    ), url("UIowa.jpg");
-			height:800px;
-			width:100%;
-			background-size:cover;
-		}
-
-		.RedCross {
-			background-image:/* top, transparent black, faked with gradient */ 
-			linear-gradient(
-				rgba(0, 0, 0, 0.75), 
-				rgba(0, 0, 0, 0.75)
-				), url("RedCross.png");
-			height:800px;
-			width:100%;
-			background-size:cover;
-		}
-
-		.Berkeley {
-			background-image:/* top, transparent black, faked with gradient */ 
-			linear-gradient(
-				rgba(0, 0, 0, 0.70), 
-				rgba(0, 0, 0, 0.70)
-				), url("berkeleypic.png");
-			height:800px;
-			width:100%;
-			background-size:cover;
 		}
 
 		.Buffer {
